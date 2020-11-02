@@ -1,0 +1,24 @@
+[ 2020-05-20T12:11:03+08:00 ] ::1 /tp/index.php/Users/User/shell?like=%E5%9C%B0%E7%90%83
+ERR: 非法操作:shell
+
+[ 2020-05-20T12:11:41+08:00 ] ::1 /tp/index.php/Users/User/shell?like=%E5%9C%B0%E7%90%83
+ERR: 非法操作:shell
+
+[ 2020-05-20T12:11:41+08:00 ] ::1 /tp/index.php/Users/User/shell?like=%E5%9C%B0%E7%90%83
+ERR: 非法操作:shell
+
+[ 2020-05-20T12:11:45+08:00 ] ::1 /tp/index.php/Users/User/shell?like=%E5%9C%B0%E7%90%83
+ERR: 非法操作:shell
+
+[ 2020-05-20T13:26:56+08:00 ] ::1 /tp/index.php/Users/npwd'
+ERR: 无法加载控制器:Npwd'
+
+[ 2020-05-20T13:27:13+08:00 ] ::1 /tp/index.php/Users/npwd
+ERR: 无法加载控制器:Npwd
+
+[ 2020-05-20T13:27:46+08:00 ] ::1 /tp/index.php/Users/npwd
+ERR: 无法加载控制器:Npwd
+
+[ 2020-05-20T13:27:47+08:00 ] ::1 /tp/index.php/Users/npwd
+ERR: 无法加载控制器:Npwd
+

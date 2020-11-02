@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    body{
+        width: 100%;
+        height: 700px;
+    }
+    .table-css,.header{
+        float: left;
+    }
+    .table-css{
+        width:75%;
+    }
+    #content{
+        margin-left: 200px;
+        position: absolute;
+        border: #3c3f41 1px solid;
+        width: 80%;
+        height: 700px;
+    }
+    #list_g{
+        position: relative;
+        vertical-align: top;
+        float: left;
+        width: 120px;
+        height: 600px;
+        background-color: #fafafa;
+        margin:0px 0px 0px 0px;
+    }
+    #u_menu22{
+        background-image: url("__IMG__/uu1.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        vertical-align: top;
+        border: #3c3f41 1px solid;
+        float: left;
+        top: 0px;
+        margin:0px 0px 0px 0px;
+        padding: 0px;
+        height: 600px;
+        width: 80%;
+    }
+    #new_pwd{
+        display: none;
+        /*margin: 20% auto ;*/
+    }
+    #address{
+        display: none;
+    }
+    h1{
+        color: pink;
+        text-align: center;
+    }
+    table{
+        margin: 0 auto ;
+        text-align: center;
+        width: 150px;
+    }
+</style>
+<body>
+<header class="header">
+    <include file="./Public/static/header.html" />
+</header>
+<div id="content" class="table-css">
+    <div class="list-group" id="list_g">
+        <a href="javascript:void(0)" class="list-group-item active">用户中心</a>
+        <a href="javascript:void(0)" class="list-group-item" data-show="new_pwd">修改密码</a>
+        <a href="javascript:void(0)" class="list-group-item" data-show="address">收货地址管理</a>
+    </div>
+    <div id="u_menu22">
+        <div id="new_pwd">
+            <h1 style="color: #FFFFFF">修改密码</h1>
+            <form action="">
+                <table>
+                    <tr><td><input id="email" name="email" type="email" placeholder="请输入注册邮箱"></td></tr>
+                    <tr><td><input id="newpwd" name="PASSWORD" type="text" placeholder="请输入新密码"></td></tr>
+                    <tr><td><input id="upwd" type="button" value="确定" ></td></tr>
+                </table>
+            </form>
+        </div>
+        <div id="address">
+            <h1 style="color: #FFFFFF">地址管理</h1>
+            <form action="">
+                <table>
+                    <tr><td><input id="addre" name="PASSWORD" type="text" placeholder="{$address}"></td></tr>
+                    <tr><td><input id="uaddre" type="button" value="修改" ></td></tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</div>
+<footer>
+    <include file="./Public/static/footer.html" />
+</footer>
+<script>
+    $(function () {
+        $("#list_g>a").each(function () {
+            $(this).bind("click",function () {
+                let show=$(this).data("show")
+                $("#u_menu22>div").hide()
+                $("#"+show).show()
+            })
+        })
+        $("#upwd").click(function () {
+            let email=$("#email").val()
+            let newpwd=$("#newpwd").val()
+            $.post("__CONTROLLER__/address",{Email:email,PASSWORD:newpwd,fr:"upwd"},function (str) {
+                alert(str)
+            })
+        })
+        $("#uaddre").click(function () {
+            let address=$("#addre").val()
+            $.post("__CONTROLLER__/address",{address:address,fr:"uaddre"},function (str) {
+                alert(str)
+            })
+        })
+    })
+
+</script>
+</body>
+</html>

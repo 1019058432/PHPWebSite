@@ -1,0 +1,128 @@
+<DOCTYPE html>
+    <html>
+    <head>
+        <title>注册</title>
+        <meta charset="UTF-8">
+        <style>
+            body{
+                background:url("__IMG__/tea.jpg") no-repeat;
+            }
+            .box{
+                width:900px;
+                height:500px;
+                background-color:white;
+                border: 5px solid #EEEEEE;
+                margin:30px auto;
+                margin-top: 100px;
+            }
+            .leftp{color:#FFCC00;}
+            .leftp2{color:#A6A6A6;}
+            .left{float:left ;
+                margin:15px;
+                font-size:20px;
+            }
+            .regibox{ margin:50px 0px 30px 40px;
+                width: 500px;
+                float:left;
+            }
+            table tr{
+                height:45px;width:390px;
+            }
+            #u_erro{
+                color: #ff2d23;
+            }
+            #username,#passwd,#email,#data,#color,#checkcode{border:1px solid #A6A6A6;
+                height:32px;
+                width:200px;
+                padding-left:5px;
+                border-radius:5px;
+            }
+            #regisbt{
+                height:32px;
+                width:90px;
+                padding-left:5px;
+                border-radius:5px;
+                background-color:yellow;
+            }
+            .right{float:right;margin:15px;
+                font-size:15px;}
+            .right a{color:pink;}
+
+        </style>
+        <script>
+            window.onload=function(){
+                document.getElementById("form").onsubmit=function(){
+                    return checkUserName()&&checkPasswd();
+                }
+                document.getElementById("username").onblur=checkUserName;
+                document.getElementById("passwd").onblur=checkPasswd;
+            }
+            function checkUserName(){
+                var username=document.getElementById("username").value;
+                var reg_username=/^\w{6,12}$/;
+                var flag=reg_username.test(username);
+                var u_erro=document.getElementById("u_erro");
+                if(flag){
+                    u_erro.innerHTML="<img width='35px' height='32px' src='__IMG__/r.png' align='center' />";
+
+                }else{
+                    u_erro.innerHTML="<img width='35px' height='32px' src='__IMG__/w.png' align='center' /><span style='color: red'>格式有误</span>";
+                }
+                return flag;
+            }
+            function checkPasswd(){
+                var passwd=document.getElementById("passwd").value;
+                var reg_passwd=/^\w{6,12}$/;
+                var flag=reg_passwd.test(passwd);
+                var p_erro=document.getElementById("p_erro");
+                if(flag){
+                    p_erro.innerHTML="<img width='35px' height='32px' src='__IMG__/r.png' align='center' />";
+
+                }else{
+                    p_erro.innerHTML="<img width='35px' height='32px' src='__IMG__/w.png' align='center' /><span style='color: red'>格式有误</span>";
+                }
+                return flag;
+            }
+        </script>
+        <script src="__JS__/jquery.js"></script>
+    </head>
+
+    <body>
+    <div class="box">
+        <div class="left">
+            <p class=" leftp">新用户注册</p>
+            <p class=" leftp2">USER REGISTER</p>
+        </div>
+        <div class="regibox">
+            <form action="register" method="post" id="form" >
+                <table>
+                    <tr><td>用户名:</td><td><input name="USERNAME" type="text" placeholder="username" id="username"></td><td><span id="u_erro" class="erro">{$error_in}</span></td></tr>
+
+                    <tr><td>密码:</td><td><input name="PASSWORD" type="password" placeholder="passwd" id="passwd"></td><td><span id="p_erro" class="erro"></span><td></tr>
+
+                    <tr><td>邮箱：</td><td><input type="email"  id="email" name="Email"></td><td></td></tr>
+                    <tr><td>验证码:</td><td><input type="text"  id="checkcode" name="checkcode"><img  id="codeimg"  src="__URL__/vcode"><td><td>{$error_code }</td></tr>
+                    <tr ><td colspan="2" align="center"><input type="submit" value="注册" id="regisbt"></td></tr>
+                </table>
+            </form>
+        </div>
+
+        <div class="right">
+            <a href="../../Admin/Index/index">返回首页</a>
+            <p>已有账号？</p>
+            <a href="../../Admin/Index/login">立即登录</a>
+        </div>
+    </div>
+    <footer id="footer">
+        <include file="./Public/static/footer.html" />
+    </footer>
+    <script>
+        $(function () {
+            $("#codeimg").on('click',function(){
+                this.src= "__URL__/vcode/t/"+new Date().getTime();
+            });
+        })
+    </script>
+    </body>
+    </html>
+</DOCTYPE>

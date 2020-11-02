@@ -1,0 +1,25 @@
+[ 2020-04-26T10:41:11+08:00 ] ::1 /tp/index.php/Admin/Wares/login.html
+ERR: 非法操作:login
+
+[ 2020-04-26T11:54:45+08:00 ] ::1 /tp/index.php/Admin/Wares/js/vue.min.js
+ERR: 非法操作:js
+
+[ 2020-04-26T11:54:47+08:00 ] ::1 /tp/index.php/Admin/Wares/js/vue.min.js
+ERR: 非法操作:js
+
+[ 2020-04-26T14:09:45+08:00 ] ::1 /tp/index.php/Admin/Wares/paid.html
+ERR: 1054:Unknown column 'nbsp' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `wares` ORDER BY w_talk&nbsp;desc LIMIT 0,5  
+
+[ 2020-04-26T14:09:52+08:00 ] ::1 /tp/index.php/Admin/Wares/paid.html
+ERR: 1054:Unknown column 'nbsp' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `wares` ORDER BY w_talk&nbsp;desc LIMIT 0,5  
+
+[ 2020-04-26T14:11:36+08:00 ] ::1 /tp/index.php/Admin/Wares/top/p/None
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `wares` ORDER BY w_talk desc LIMIT -10,10  
+
+[ 2020-04-26T14:11:41+08:00 ] ::1 /tp/index.php/Admin/Wares/top/p/None
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `wares` ORDER BY w_talk desc LIMIT -10,10  
+

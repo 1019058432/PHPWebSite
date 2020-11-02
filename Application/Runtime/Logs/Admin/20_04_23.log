@@ -1,0 +1,22 @@
+[ 2020-04-23T13:19:03+08:00 ] ::1 /tp/index.php/Admin/View/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007601s ]
+ERR: 无法加载控制器:View
+
+[ 2020-04-23T13:42:30+08:00 ] ::1 /tp/index.php/Admin/View/Index/login.html
+ERR: 无法加载控制器:View
+
+[ 2020-04-23T13:43:16+08:00 ] ::1 /tp/index.php/Admin/Index/login.html
+ERR: 无法加载控制器:Index
+
+[ 2020-04-23T13:43:58+08:00 ] ::1 /tp/index.php/Admin/Index/index
+ERR: 无法加载控制器:Index
+
+[ 2020-04-23T13:52:48+08:00 ] ::1 /tp/index.php/Admin/Index/login.html
+ERR: 1146:Table 'staff.tab_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tab_admin`
+

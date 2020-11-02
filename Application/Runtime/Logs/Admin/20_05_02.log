@@ -1,0 +1,45 @@
+[ 2020-05-02T08:36:30+08:00 ] ::1 /tp/index.php/Admin/Wares/login.html
+ERR: 非法操作:login
+
+[ 2020-05-02T08:36:48+08:00 ] ::1 /tp/index.php/Admin/Wares/login.html
+ERR: 非法操作:login
+
+[ 2020-05-02T08:39:32+08:00 ] ::1 /tp/index.php/Admin/Wares/None
+ERR: 非法操作:None
+
+[ 2020-05-02T18:17:20+08:00 ] ::1 /tp/index.php/Admin/Wares/None
+ERR: 非法操作:None
+
+[ 2020-05-02T20:06:53+08:00 ] ::1 /tp/index.php/Admin/Wares/test
+ERR: 模板不存在:./Application/Admin/View/Wares/test.html
+
+[ 2020-05-02T20:06:53+08:00 ] ::1 /tp/index.php/Admin/Wares/test
+ERR: 模板不存在:./Application/Admin/View/Wares/test.html
+
+[ 2020-05-02T20:07:23+08:00 ] ::1 /tp/index.php/Admin/Wares/test
+ERR: 模板不存在:./Application/Admin/View/Wares/test.html
+
+[ 2020-05-02T20:07:23+08:00 ] ::1 /tp/index.php/Admin/Wares/test
+ERR: 模板不存在:./Application/Admin/View/Wares/test.html
+
+[ 2020-05-02T20:07:24+08:00 ] ::1 /tp/index.php/Admin/Wares/test
+ERR: 模板不存在:./Application/Admin/View/Wares/test.html
+
+[ 2020-05-02T20:07:25+08:00 ] ::1 /tp/index.php/Admin/Wares/test
+ERR: 模板不存在:./Application/Admin/View/Wares/test.html
+
+[ 2020-05-02T20:07:25+08:00 ] ::1 /tp/index.php/Admin/Wares/test
+ERR: 模板不存在:./Application/Admin/View/Wares/test.html
+
+[ 2020-05-02T20:07:25+08:00 ] ::1 /tp/index.php/Admin/Wares/test
+ERR: 模板不存在:./Application/Admin/View/Wares/test.html
+
+[ 2020-05-02T20:07:25+08:00 ] ::1 /tp/index.php/Admin/Wares/test
+ERR: 模板不存在:./Application/Admin/View/Wares/test.html
+
+[ 2020-05-02T20:08:48+08:00 ] ::1 /tp/index.php/Admin/Wares/test
+ERR: 模板不存在:./Application/Admin/View/Wares/test.html
+
+[ 2020-05-02T20:08:48+08:00 ] ::1 /tp/index.php/Admin/Wares/test
+ERR: 模板不存在:./Application/Admin/View/Wares/test.html
+

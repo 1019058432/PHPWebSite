@@ -1,0 +1,49 @@
+[ 2020-05-16T10:53:36+08:00 ] ::1 /tp/index.php/Admin/Index/%7BUsers/user'%7D
+ERR: 非法操作:{Users
+
+[ 2020-05-16T10:53:53+08:00 ] ::1 /tp/index.php/Admin/Index/%7BUsers/user'%7D
+ERR: 非法操作:{Users
+
+[ 2020-05-16T10:53:53+08:00 ] ::1 /tp/index.php/Admin/Index/%7BUsers/user'%7D
+ERR: 非法操作:{Users
+
+[ 2020-05-16T10:53:57+08:00 ] ::1 /tp/index.php/Admin/Index/Users/user
+ERR: 非法操作:Users
+
+[ 2020-05-16T12:18:13+08:00 ] ::1 /tp/index.php/Admin/Index/Users/User/user'
+ERR: 非法操作:Users
+
+[ 2020-05-16T12:18:24+08:00 ] ::1 /tp/index.php/Admin/Index/Users/User/user'
+ERR: 非法操作:Users
+
+[ 2020-05-16T12:18:24+08:00 ] ::1 /tp/index.php/Admin/Index/Users/User/user'
+ERR: 非法操作:Users
+
+[ 2020-05-16T12:18:27+08:00 ] ::1 /tp/index.php/Admin/Index/Users/User/user'
+ERR: 非法操作:Users
+
+[ 2020-05-16T12:18:38+08:00 ] ::1 /tp/index.php/Admin/Index/Users/User/user
+ERR: 非法操作:Users
+
+[ 2020-05-16T12:20:08+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `USERNAME` = '25143078' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `address`='葫芦岛上海路' WHERE `u_id` = 22 [ RunTime:0.0047s ]
+
+[ 2020-05-16T12:22:41+08:00 ] ::1 /tp/index.php/Admin/Users/User/user
+ERR: 模板不存在:./Application/Admin/View/Users/User.html
+
+[ 2020-05-16T12:22:41+08:00 ] ::1 /tp/index.php/Admin/Users/User/user
+ERR: 模板不存在:./Application/Admin/View/Users/User.html
+
+[ 2020-05-16T12:23:22+08:00 ] ::1 /tp/index.php/Admin/Users/User/user
+ERR: 模板不存在:./Application/Admin/View/Users/User.html
+
+[ 2020-05-16T12:23:22+08:00 ] ::1 /tp/index.php/Admin/Users/User/user
+ERR: 模板不存在:./Application/Admin/View/Users/User.html
+

@@ -1,0 +1,24 @@
+[ 2020-05-06T09:42:19+08:00 ] ::1 /tp/index.php/Admin/Crud/shellUp/p/None
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `wares` WHERE `s_id`  is null  AND `t_id`  is null LIMIT -10,10  
+
+[ 2020-05-06T09:42:58+08:00 ] ::1 /tp/index.php/Admin/Crud/shellUp/p/None
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `wares` WHERE `s_id`  is null  AND `t_id`  is null LIMIT -10,10  
+
+[ 2020-05-06T09:43:03+08:00 ] ::1 /tp/index.php/Admin/Crud/shellUp/p/None
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `wares` WHERE `s_id`  is null  AND `t_id`  is null LIMIT -10,10  
+
+[ 2020-05-06T09:43:11+08:00 ] ::1 /tp/index.php/Admin/Crud/shellUp/p/None
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `wares` WHERE `s_id`  is null  AND `t_id`  is null LIMIT -10,10  
+
+[ 2020-05-06T09:43:22+08:00 ] ::1 /tp/index.php/Admin/Crud/shellUp/p/None
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `wares` WHERE `s_id`  is null  AND `t_id`  is null LIMIT -10,10  
+
+[ 2020-05-06T09:43:53+08:00 ] ::1 /tp/index.php/Admin/Crud/shellUp/p/None
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `wares` WHERE `s_id`  is null  AND `t_id`  is null LIMIT -10,10  
+

@@ -1,0 +1,65 @@
+[ 2020-04-27T10:02:42+08:00 ] ::1 /tp/index.php/Admin/Wares/login.html
+ERR: 非法操作:login
+
+[ 2020-04-27T10:04:03+08:00 ] ::1 /tp/index.php/Admin/Wares/login.html
+ERR: 非法操作:login
+
+[ 2020-04-27T10:16:50+08:00 ] ::1 /tp/index.php/Admin/Crud/delM.html
+ERR: 模板不存在:./Application/Admin/View/Crud/delM.html
+
+[ 2020-04-27T15:52:18+08:00 ] ::1 /tp/index.php/Admin/Index/register
+ERR: 1366:Incorrect string value: '\x8C\xCAw\x80M+...' for column 'PASSWORD' at row 1
+ [ SQL语句 ] : INSERT INTO `user` (`USERNAME`,`PASSWORD`,`Email`,`salt`) VALUES ('888888','!!��w�M+��,3�','1019058432@qq.com','2020年Apr月27日15时52分18秒')
+
+[ 2020-04-27T15:57:07+08:00 ] ::1 /tp/index.php/Admin/Index/register
+ERR: 1366:Incorrect string value: '\x8C\xCAw\x80M+...' for column 'PASSWORD' at row 1
+ [ SQL语句 ] : INSERT INTO `user` (`USERNAME`,`PASSWORD`,`Email`,`salt`) VALUES ('888888','!!��w�M+��,3�','1019058432@qq.com','2020Apr27155707')
+
+[ 2020-04-27T16:05:55+08:00 ] ::1 /tp/index.php/Admin/Index/register
+ERR: 1406:Data too long for column 'PASSWORD' at row 1
+ [ SQL语句 ] : INSERT INTO `user` (`USERNAME`,`PASSWORD`,`Email`,`salt`) VALUES ('888888','21218cca77804d2ba1922c33e015110545adb7d681eca74d44eae0c5acd6671c','1019058432@qq.com','2020Apr27160555')
+
+[ 2020-04-27T16:08:00+08:00 ] ::1 /tp/index.php/Admin/Index/register
+ERR: 1406:Data too long for column 'PASSWORD' at row 1
+ [ SQL语句 ] : INSERT INTO `user` (`USERNAME`,`PASSWORD`,`Email`,`salt`) VALUES ('888888','21218cca77804d2ba1922c33e01511057bcc7b3808fc03575066f3bee2e2da68','1019058432@qq.com','2020Apr27160800')
+
+[ 2020-04-27T16:11:39+08:00 ] ::1 /tp/index.php/Admin/Index/register
+ERR: 1406:Data too long for column 'PASSWORD' at row 1
+ [ SQL语句 ] : INSERT INTO `user` (`USERNAME`,`PASSWORD`,`Email`,`salt`) VALUES ('888888','8c59dfa46f57d2ee7628177f5938aea3','1019058432@qq.com','2020Apr27161139')
+
+[ 2020-04-27T16:51:18+08:00 ] ::1 /tp/index.php/Admin/Index/login.html
+ERR: 1054:Unknown column 'ck' in 'field list'
+ [ SQL语句 ] : SELECT `ck`,`salt`,`PASSWORD` FROM `user` WHERE `USERNAME` = '1019058432' 
+
+[ 2020-04-27T20:36:34+08:00 ] ::1 /tp/index.php/Admin/Crud/paidM.html
+ERR: 1146:Table 'staff.unpaid,user,wares' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `unpaid,user,wares`
+
+[ 2020-04-27T20:36:34+08:00 ] ::1 /tp/index.php/Admin/Crud/paidM.html
+ERR: 1146:Table 'staff.unpaid,user,wares' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `unpaid,user,wares`
+
+[ 2020-04-27T20:42:48+08:00 ] ::1 /tp/index.php/Admin/Crud/paidM.html
+ERR: 1054:Unknown column 'unpaid.up_number' in 'field list'
+ [ SQL语句 ] : SELECT unpaid.up_number,unpaid.p_count,unpaid.into_time,user.u_name,wares.w_price FROM `unpaid` INNER JOIN user on unpaid.u_id =user.u_id INNER JOIN wares on unpaid.w_id=wares.w_id  LIMIT 0,5  
+
+[ 2020-04-27T20:45:57+08:00 ] ::1 /tp/index.php/Admin/Crud/paidM.html
+ERR: 1054:Unknown column 'user.u_name' in 'field list'
+ [ SQL语句 ] : SELECT unpaid.p_number,unpaid.p_count,unpaid.into_time,user.u_name,wares.w_price FROM `unpaid` INNER JOIN user on unpaid.u_id =user.u_id INNER JOIN wares on unpaid.w_id=wares.w_id  LIMIT 0,5  
+
+[ 2020-04-27T20:45:57+08:00 ] ::1 /tp/index.php/Admin/Crud/paidM.html
+ERR: 1054:Unknown column 'user.u_name' in 'field list'
+ [ SQL语句 ] : SELECT unpaid.p_number,unpaid.p_count,unpaid.into_time,user.u_name,wares.w_price FROM `unpaid` INNER JOIN user on unpaid.u_id =user.u_id INNER JOIN wares on unpaid.w_id=wares.w_id  LIMIT 0,5  
+
+[ 2020-04-27T21:02:57+08:00 ] ::1 /tp/index.php/Admin/Crud/delM.html
+ERR: 模板不存在:./Application/Admin/View/Crud/delM.html
+
+[ 2020-04-27T21:52:24+08:00 ] ::1 /tp/index.php/Admin/Crud/delM.html
+ERR: 模板不存在:./Application/Admin/View/Crud/delM.html
+
+[ 2020-04-27T22:38:53+08:00 ] ::1 /tp/index.php/Admin/Crud/addMArrayw_id.html
+ERR: 非法操作:addMArrayw_id
+
+[ 2020-04-27T22:40:20+08:00 ] ::1 /tp/index.php/Admin/Crud/addMArrayw_id.html
+ERR: 非法操作:addMArrayw_id
+

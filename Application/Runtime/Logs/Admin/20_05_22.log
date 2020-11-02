@@ -1,0 +1,91 @@
+[ 2020-05-22T13:35:23+08:00 ] ::1 /tp/index.php/Admin/Wares/None
+ERR: 非法操作:None
+
+[ 2020-05-22T13:35:57+08:00 ] ::1 /tp/index.php/Admin/Wares/None
+ERR: 非法操作:None
+
+[ 2020-05-22T13:36:15+08:00 ] ::1 /tp/index.php/Admin/Wares/None
+ERR: 非法操作:None
+
+[ 2020-05-22T13:37:56+08:00 ] ::1 /tp/index.php/Admin/Wares/Admin/Wares/paid
+ERR: 非法操作:Admin
+
+[ 2020-05-22T13:38:06+08:00 ] ::1 /tp/index.php/Admin/Wares/Admin/Index/index
+ERR: 非法操作:Admin
+
+[ 2020-05-22T13:38:35+08:00 ] ::1 /tp/index.php/Admin/Wares/Admin/Index/index
+ERR: 非法操作:Admin
+
+[ 2020-05-22T13:38:54+08:00 ] ::1 /tp/index.php/Admin/Wares/Admin/Index/index
+ERR: 非法操作:Admin
+
+[ 2020-05-22T13:38:54+08:00 ] ::1 /tp/index.php/Admin/Wares/Admin/Index/index
+ERR: 非法操作:Admin
+
+[ 2020-05-22T13:38:54+08:00 ] ::1 /tp/index.php/Admin/Wares/Admin/Index/index
+ERR: 非法操作:Admin
+
+[ 2020-05-22T13:38:54+08:00 ] ::1 /tp/index.php/Admin/Wares/Admin/Index/index
+ERR: 非法操作:Admin
+
+[ 2020-05-22T13:38:54+08:00 ] ::1 /tp/index.php/Admin/Wares/Admin/Index/index
+ERR: 非法操作:Admin
+
+[ 2020-05-22T13:38:57+08:00 ] ::1 /tp/index.php/Admin/Wares/index
+ERR: 非法操作:index
+
+[ 2020-05-22T13:39:43+08:00 ] ::1 /tp/index.php/Admin/Wares/index
+ERR: 非法操作:index
+
+[ 2020-05-22T13:39:43+08:00 ] ::1 /tp/index.php/Admin/Wares/index
+ERR: 非法操作:index
+
+[ 2020-05-22T13:39:43+08:00 ] ::1 /tp/index.php/Admin/Wares/index
+ERR: 非法操作:index
+
+[ 2020-05-22T13:39:57+08:00 ] ::1 /tp/index.php/Admin/Wares/Admin/Index/index
+ERR: 非法操作:Admin
+
+[ 2020-05-22T13:40:29+08:00 ] ::1 /tp/index.php/Admin/Wares/Admin/Index/index
+ERR: 非法操作:Admin
+
+[ 2020-05-22T13:46:31+08:00 ] ::1 /tp/index.php/Admin/Wares/Admin/Wares/paid
+ERR: 非法操作:Admin
+
+[ 2020-05-22T13:50:19+08:00 ] ::1 /tp/index.php/Admin/Wares/Admin/Wares/shell?like=%E5%9C%B0%E7%90%83
+ERR: 非法操作:Admin
+
+[ 2020-05-22T13:51:42+08:00 ] ::1 /tp/index.php/Admin/Wares/None
+ERR: 非法操作:None
+
+[ 2020-05-22T13:51:53+08:00 ] ::1 /tp/index.php/Admin/Wares/None
+ERR: 非法操作:None
+
+[ 2020-05-22T13:52:10+08:00 ] ::1 /tp/index.php/Admin/Wares/Users/User/user
+ERR: 非法操作:Users
+
+[ 2020-05-22T13:53:45+08:00 ] ::1 /tp/index.php/Admin/Wares/Users/User/user
+ERR: 非法操作:Users
+
+[ 2020-05-22T13:53:48+08:00 ] ::1 /tp/index.php/Admin/Users/User/user
+ERR: 无法加载控制器:Users
+
+[ 2020-05-22T13:58:56+08:00 ] ::1 /tp/index.php/Admin/Crud/Admin/Index/index
+ERR: 非法操作:Admin
+
+[ 2020-05-22T14:03:37+08:00 ] ::1 /tp/index.php/Admin/Crud/Admin/Crud/userM
+ERR: 非法操作:Admin
+
+[ 2020-05-22T14:06:40+08:00 ] ::1 /tp/index.php/Admin/Crud/Admin/Crud/Temp
+ERR: 非法操作:Admin
+
+[ 2020-05-22T19:16:37+08:00 ] ::1 /tp/index.php/Admin/Wares/None
+ERR: 非法操作:None
+
+[ 2020-05-22T19:17:14+08:00 ] ::1 /tp/index.php/Admin/Wares/None
+ERR: 非法操作:None
+
+[ 2020-05-22T23:25:28+08:00 ] ::1 /tp/index.php/Admin/Index/index.html
+ERR: SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+

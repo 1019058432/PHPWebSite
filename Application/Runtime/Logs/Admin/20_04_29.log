@@ -1,0 +1,11 @@
+[ 2020-04-29T19:08:46+08:00 ] ::1 /tp/index.php/Admin/Crud/upM/w_id/1.html
+ERR: 1066:Not unique table/alias: 'wares'
+ [ SQL语句 ] : SELECT wares.class_id,wares.w_name,wares.w_commit,wares.w_lead,wares.w_stock,wares.w_price,wares.w_img FROM `wares` INNER JOIN wares on class.class_id=wares.class_id  WHERE wares.w_id = '1' LIMIT 1  
+
+[ 2020-04-29T19:08:46+08:00 ] ::1 /tp/index.php/Admin/Crud/upM/w_id/1.html
+ERR: 1066:Not unique table/alias: 'wares'
+ [ SQL语句 ] : SELECT wares.class_id,wares.w_name,wares.w_commit,wares.w_lead,wares.w_stock,wares.w_price,wares.w_img FROM `wares` INNER JOIN wares on class.class_id=wares.class_id  WHERE wares.w_id = '1' LIMIT 1  
+
+[ 2020-04-29T19:43:00+08:00 ] ::1 /tp/index.php/Admin/Crud/delM.html
+ERR: 模板不存在:./Application/Admin/View/Crud/delM.html
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #new_pwd{
+            margin: 15% auto ;
+        }
+        h1{
+            text-align: center;
+        }
+        table{
+            margin: 0 auto ;
+            text-align: center;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+<div><a href="../../Admin/Index/index">返回首页</a></div>
+<div id="new_pwd" >
+    <h1>找回密码</h1>
+    <form method="post">
+        <table>
+            <tr><td><span>{$log|default=''}</span></td></tr>
+            <tr><td style="align-content: center"><input name="USERNAME" type="text" placeholder="请输入账号"></td></tr>
+            <tr><td style="align-content: center"><input name="Email" type="email" placeholder="请输入注册邮箱"></td></tr>
+            <tr><td><input name="PASSWORD" type="text" placeholder="请输入新密码"></td></tr>
+            <tr><td><input type="submit" ></td></tr>
+        </table>
+    </form>
+</div>
+<footer>
+    <include file="./Public/static/footer.html" />
+</footer>
+</body>
+</html>

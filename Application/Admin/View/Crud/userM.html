@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户管理</title>
+    <style>
+        .table-css,#header{
+            float: left;
+        }
+        .table-css{
+            margin-top: 20px;
+            width:75%;
+        }
+        table{
+            width: 100%;
+        }
+        tr{
+            background: #fff4e8;
+            margin: 2px auto;
+        }
+    </style>
+</head>
+<body>
+<header id="header">
+    <include file="./Public/static/header.html" />
+</header>
+<div class="table-css">
+    <table>
+        <tr>
+            <th> <input type="checkbox" name="select_all"></th>
+            <th>id</th>
+            <th>用户名</th>
+            <th>地址</th>
+            <th>Email</th>
+            <th>权限</th>
+            <th>修改</th>
+        </tr>
+
+        <volist name="user_list" id="vo">
+            <tr>
+                <td><input type="checkbox" name="select_all"></td>
+                <td>{$vo.u_id}</td>
+                <td>{$vo.username}</td>
+                <td>{$vo.address}</td>
+                <td>{$vo.email}</td>
+                <td>{$vo.power}</td>
+                <td><a href="javascript:void(0)">修改</a></td>
+            </tr>
+        </volist>
+    </table>
+</div>
+<div class="meneame" >{$html}</div>
+<footer id="footer">
+    <include file="./Public/static/footer.html" />
+</footer>
+</body>
+</html>

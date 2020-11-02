@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>全店商品</title>
+    <style>
+        .table-css,.header{
+            float: left;
+        }
+        .table-css{
+            width:75%;
+        }
+        .gl-item{
+            font: 12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+            -webkit-font-smoothing: antialiased;
+            color: #666;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: 240px;
+            height: 400px;
+            float: left;
+            position: relative;
+            z-index: 1;
+            margin-right: 40px;
+            margin-top: 10px;
+        }
+        #content_wares{
+            display: block;
+            float: left;
+        }
+        .meneame{
+            width: 100%;
+            text-align: center;
+            display: block;
+            float: left;
+            word-wrap: break-word;
+            word-break: normal;
+        }
+        #footer{
+            width: 100%;
+            display: block;
+            float: left;
+            word-wrap: break-word;
+            word-break: normal;
+            margin-bottom: 50px;
+        }
+        div.meneame{padding:3px;font-size:80%;margin:3px;color:#ff6500;text-align:center;}
+        div.meneame a{border:#ff9600 1px solid;padding:5px 7px;background-position:50% bottom;margin:0 3px 0 0;text-decoration:none;}
+        div.meneame a:hover{border:#ff9600 1px solid;background-image:none;color:#ff6500;background-color:#ffc794;}
+        div.meneame a:active{border:#ff9600 1px solid;background-image:none;color:#ff6500;background-color:#ffc794;}
+        div.meneame span.current{border:#ff6500 1px solid;padding:5px 7px;font-weight:bold;color:#ff6500;margin:0 3px 0 0;background-color:#ffbe94;}
+        div.meneame span.disabled{border:#ffe3c6 1px solid;padding:5px 7px;color:#ffe3c6;margin:0 3px 0 0;}
+
+
+    </style>
+</head>
+<body>
+<header class="header">
+    <include file="./Public/static/header.html" statu2="active"  />
+</header>
+<div class="table-css">
+    <div id="content_wares">
+        <div id="content_page">
+            <div>
+                <ul >
+                    <volist name="wares" id="vo">
+                        <li data-sku="1591280" class="gl-item gl-item-presell">
+                            <div class="gl-i-wrap">
+                                <div class="p-img">
+                                    <a target="_blank" title="【五一开门红，26号下单瓜分500万个憨豆！】值得购买！【查看更多】" href="{:U('Wares/detail?w_id='.$vo['w_id'])}" >
+                                        <img width="220" height="220" class="" data-img="1" source-data-lazy-img="" data-lazy-img="done" src="{$vo.w_img}">
+                                    </a>
+                                </div>
+                                <a target="_blank" href="{:U('Wares/detail?w_id='.$vo['w_id'])}" >
+                                <div class="p-price">
+                                    <strong class="J_1591280" data-done="1"><i>{$vo.w_price}</i></strong>
+                                </div>
+                                <div class="p-name p-name-type-2">
+                                        <em>{$vo.w_name}</em>
+                                        <i class="promo-words" >【查看更多】</i>
+                                </div>
+                                <div class="p-commit" data-done="1">
+                                    <span class="buy-score" title="憨憨与第三方合作对商品性能、安全性、外观等进行综合评估得出选购指数">选购指数<em>8.0</em></span>
+                                    <strong>{$vo.w_talk}</strong>
+                                </div>
+                                <div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="98" data-done="1">
+                                    <span class="J_im_icon" style="color: #2b55af">{$vo.w_lead}<b class="im-02" style="background:url(//img14.360buyimg.com/uba/jfs/t26764/156/1205787445/713/9f715eaa/5bc4255bN0776eea6.png) no-repeat;" title="联系客服" ></b></span>					</div>
+
+                                <div class="p-icons" id="J_pro_1591280" data-done="1">
+                                    <i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="憨憨自营，品质保障"></i>
+                                </div>
+                                <div class="p-operate">
+                                    <a class="p-o-btn rushbuy" href="#" target="_blank"  style="color: red; border:1px red solid;" >参与抢购</a>
+                                </div>
+                                </a>
+                            </div>
+                        </li>
+                    </volist>
+                </ul>
+            </div>
+        </div>
+
+    </div><br>
+</div>
+<div class="meneame" >{$html}</div>
+<footer id="footer">
+    <include file="./Public/static/footer.html"  />
+</footer>
+</body>
+</html>

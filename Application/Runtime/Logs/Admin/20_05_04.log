@@ -1,0 +1,316 @@
+[ 2020-05-04T18:43:13+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002053s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT `power`,`u_id` FROM `user` WHERE `USERNAME` = '25143078'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: power E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 80 行.
+NOTIC: [8] Undefined index: u_id E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 83 行.
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `address`='葫芦岛上海路不知村' WHERE `u_id` = null [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: success_log E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 106 行.
+
+[ 2020-05-04T19:09:11+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT `power`,`u_id` FROM `user` WHERE `USERNAME` = '25143078'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: power E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 80 行.
+NOTIC: [8] Undefined index: u_id E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 83 行.
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `address`='葫芦岛上海路不知村' WHERE `u_id` = null [ RunTime:0.0002s ]
+
+[ 2020-05-04T19:10:27+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT `power`,`u_id` FROM `user` WHERE `USERNAME` = '25143078'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: power E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 80 行.
+NOTIC: [8] Undefined index: u_id E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 83 行.
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `address`='葫芦岛上海路不知村' WHERE `u_id` = null [ RunTime:0.0002s ]
+
+[ 2020-05-04T19:10:29+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT `power`,`u_id` FROM `user` WHERE `USERNAME` = '25143078'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: power E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 80 行.
+NOTIC: [8] Undefined index: u_id E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 83 行.
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `address`='葫芦岛上海路不知村' WHERE `u_id` = null [ RunTime:0.0003s ]
+
+[ 2020-05-04T19:10:30+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `power`,`u_id` FROM `user` WHERE `USERNAME` = '25143078'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: power E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 80 行.
+NOTIC: [8] Undefined index: u_id E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 83 行.
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `address`='葫芦岛上海路不知村' WHERE `u_id` = null [ RunTime:0.0002s ]
+
+[ 2020-05-04T19:10:47+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003272s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `power`,`u_id` FROM `user` WHERE `USERNAME` = '25143078'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: power E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 80 行.
+NOTIC: [8] Undefined index: u_id E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 83 行.
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `address`='' WHERE `u_id` = null [ RunTime:0.0002s ]
+
+[ 2020-05-04T19:14:07+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004900s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT `power`,`u_id` FROM `user` WHERE `USERNAME` = '25143078'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: power E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 80 行.
+NOTIC: [8] Undefined index: u_id E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 83 行.
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `address`='' WHERE `u_id` = null [ RunTime:0.0002s ]
+
+[ 2020-05-04T19:15:05+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002547s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT `power`,`u_id` FROM `user` WHERE `USERNAME` = '25143078'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: power E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 80 行.
+NOTIC: [8] Undefined index: u_id E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 83 行.
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `address`='' WHERE `u_id` = null [ RunTime:0.0003s ]
+
+[ 2020-05-04T19:20:46+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT `power`,`u_id` FROM `user` WHERE `USERNAME` = '25143078'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: power E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 79 行.
+NOTIC: [8] Undefined index: u_id E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 82 行.
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `address`='葫芦岛上海路不知村' WHERE `u_id` = null [ RunTime:0.0002s ]
+
+[ 2020-05-04T19:34:51+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT `power`,`u_id` FROM `user` WHERE `USERNAME` = '25143078'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: power E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 79 行.
+NOTIC: [8] Undefined index: u_id E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 82 行.
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `address`='123456' WHERE `u_id` = null [ RunTime:0.0002s ]
+
+[ 2020-05-04T19:34:56+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT `power`,`u_id` FROM `user` WHERE `USERNAME` = '25143078'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: power E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 79 行.
+NOTIC: [8] Undefined index: u_id E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 82 行.
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `address`='123456' WHERE `u_id` = null [ RunTime:0.0003s ]
+
+[ 2020-05-04T19:35:37+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001858s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT `power`,`u_id` FROM `user` WHERE `USERNAME` = '25143078'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: power E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 79 行.
+NOTIC: [8] Undefined index: u_id E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 82 行.
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `address`='123456' WHERE `u_id` = null [ RunTime:0.0002s ]
+
+[ 2020-05-04T19:35:55+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001875s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `power`,`u_id` FROM `user` WHERE `USERNAME` = '25143078'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: power E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 79 行.
+NOTIC: [8] Undefined index: u_id E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 82 行.
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `address`='123456' WHERE `u_id` = null [ RunTime:0.0003s ]
+
+[ 2020-05-04T19:37:07+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT `power`,`u_id` FROM `user` WHERE `USERNAME` = '25143078'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: power E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 79 行.
+NOTIC: [8] Undefined index: u_id E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 82 行.
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2020-05-04T19:37:37+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT `power`,`u_id` FROM `user` WHERE `USERNAME` = '25143078'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: power E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 79 行.
+NOTIC: [8] Undefined index: u_id E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 82 行.
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2020-05-04T19:37:47+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT `power`,`u_id` FROM `user` WHERE `USERNAME` = '25143078'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: power E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 79 行.
+NOTIC: [8] Undefined index: u_id E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 82 行.
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2020-05-04T19:38:06+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `power`,`u_id` FROM `user` WHERE `USERNAME` = '25143078'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: power E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 79 行.
+NOTIC: [8] Undefined index: u_id E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 82 行.
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2020-05-04T19:39:47+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT `power`,`u_id` FROM `user` WHERE `USERNAME` = '25143078'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: power E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 79 行.
+NOTIC: [8] Undefined index: u_id E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 82 行.
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `address`='葫芦岛上海路不知村' WHERE `u_id` = null [ RunTime:0.0002s ]
+
+[ 2020-05-04T19:42:47+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001991s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT `power`,`u_id` FROM `user` WHERE `USERNAME` = '25143078'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: power E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 79 行.
+NOTIC: [8] Undefined index: u_id E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 82 行.
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `address`='葫芦岛上海路不知村' WHERE `u_id` = null [ RunTime:0.0004s ]
+
+[ 2020-05-04T19:43:12+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT `power`,`u_id` FROM `user` WHERE `USERNAME` = '25143078'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: power E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 80 行.
+NOTIC: [8] Undefined index: u_id E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 83 行.
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `address`='葫芦岛上海路不知村' WHERE `u_id` = null [ RunTime:0.0002s ]
+
+[ 2020-05-04T19:43:33+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT `power`,`u_id` FROM `user` WHERE `USERNAME` = '25143078'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: power E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 80 行.
+NOTIC: [8] Undefined index: u_id E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 83 行.
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `address`='葫芦岛上海路不知村' WHERE `u_id` = null [ RunTime:0.0002s ]
+
+[ 2020-05-04T19:45:03+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT `power`,`u_id` FROM `user` WHERE `USERNAME` = '25143078'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: power E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 80 行.
+NOTIC: [8] Undefined index: u_id E:\PHP\Apache\Apache24\htdocs\tp\Application\Admin\Controller\UsersController.class.php 第 83 行.
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `address`='葫芦岛上海路不知村' WHERE `u_id` = null [ RunTime:0.0002s ]
+
+[ 2020-05-04T19:46:41+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002413s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `USERNAME` = '25143078' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `address`='葫芦岛上海路不知村' WHERE `u_id` = 22 [ RunTime:0.0007s ]
+
+[ 2020-05-04T19:47:15+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `USERNAME` = '25143078' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `address`='葫芦岛上海路不知村' WHERE `u_id` = 22 [ RunTime:0.0004s ]
+
+[ 2020-05-04T19:48:27+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002083s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `USERNAME` = '25143078' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `user` WHERE `u_id` = 22 AND `Email` = '1019058432@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2020-05-04T19:49:59+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `USERNAME` = '25143078' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `user` WHERE `u_id` = 22 AND `Email` = '1019058432@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `Email`='1019058432@qq.com',`PASSWORD`='123456' WHERE `u_id` = 22 AND `Email` = '1019058432@qq.com' [ RunTime:0.0006s ]
+
+[ 2020-05-04T19:53:51+08:00 ] ::1 /tp/index.php/Admin/Users/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003989s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `USERNAME` = '25143078' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `user` WHERE `u_id` = 22 AND `Email` = '1019058432@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `user` SET `Email`='1019058432@qq.com',`PASSWORD`='7176fda06fa06358a300f1a879f05c79',`salt`='2020May04195351' WHERE `u_id` = 22 AND `Email` = '1019058432@qq.com' [ RunTime:0.0004s ]
+
+[ 2020-05-04T20:46:01+08:00 ] ::1 /tp/index.php/Admin/Wares/None
+ERR: 非法操作:None
+

@@ -1,0 +1,16 @@
+[ 2020-04-28T13:56:43+08:00 ] ::1 /tp/index.php/Admin/Crud/shellM/p/None
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `wares` LIMIT -10,10  
+
+[ 2020-04-28T13:56:49+08:00 ] ::1 /tp/index.php/Admin/Crud/shellM/p/None
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `wares` LIMIT -10,10  
+
+[ 2020-04-28T13:56:57+08:00 ] ::1 /tp/index.php/Admin/Crud/shellM/p/None
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `wares` LIMIT -10,10  
+
+[ 2020-04-28T13:57:00+08:00 ] ::1 /tp/index.php/Admin/Crud/shellM/p/None
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `wares` LIMIT -10,10  
+

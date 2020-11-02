@@ -1,0 +1,52 @@
+[ 2020-05-20T10:23:27+08:00 ] ::1 /tp/index.php/Admin/Wares/mixtopaid?mixid=,7=2=24,1=2=25,3=5=26
+ERR: 模板不存在:./Application/Admin/View/Wares/mixtopaid.html
+
+[ 2020-05-20T11:30:46+08:00 ] ::1 /tp/index.php/Admin/Wares/mixtopaid?mixid=,3=5=26,1=2=25&u_id=22
+ERR: 模板不存在:./Application/Admin/View/Wares/mixtopaid.html
+
+[ 2020-05-20T11:30:47+08:00 ] ::1 /tp/index.php/Admin/Wares/mixtopaid?mixid=,3=5=26,1=2=25&u_id=22
+ERR: 模板不存在:./Application/Admin/View/Wares/mixtopaid.html
+
+[ 2020-05-20T11:31:09+08:00 ] ::1 /tp/index.php/Admin/Wares/mixtopaid?mixid=,1=2=25,3=5=26&u_id=22
+ERR: 模板不存在:./Application/Admin/View/Wares/mixtopaid.html
+
+[ 2020-05-20T11:32:19+08:00 ] ::1 /tp/index.php/Admin/Wares/mixtopaid?mixid=,1=2=25,3=5=26&u_id=22
+ERR: 模板不存在:./Application/Admin/View/Wares/mixtopaid.html
+
+[ 2020-05-20T11:32:19+08:00 ] ::1 /tp/index.php/Admin/Wares/mixtopaid?mixid=,1=2=25,3=5=26&u_id=22
+ERR: 模板不存在:./Application/Admin/View/Wares/mixtopaid.html
+
+[ 2020-05-20T11:33:12+08:00 ] ::1 /tp/index.php/Admin/Wares/mixtopaid?mixid=,1=2=25,3=5=26&u_id=22
+ERR: 模板不存在:./Application/Admin/View/Wares/mixtopaid.html
+
+[ 2020-05-20T11:33:12+08:00 ] ::1 /tp/index.php/Admin/Wares/mixtopaid?mixid=,1=2=25,3=5=26&u_id=22
+ERR: 模板不存在:./Application/Admin/View/Wares/mixtopaid.html
+
+[ 2020-05-20T11:33:38+08:00 ] ::1 /tp/index.php/Admin/Wares/mixtopaid?mixid=,1=2=25,3=5=26&u_id=22
+ERR: 模板不存在:./Application/Admin/View/Wares/mixtopaid.html
+
+[ 2020-05-20T11:35:45+08:00 ] ::1 /tp/index.php/Admin/Wares/mixtopaid?mixid=,1=2=25,3=5=26&u_id=22
+ERR: 模板不存在:./Application/Admin/View/Wares/mixtopaid.html
+
+[ 2020-05-20T11:39:35+08:00 ] ::1 /tp/index.php/Admin/Wares/mixtopaid?mixid=,1=2=25,3=5=26&u_id=22
+ERR: 模板不存在:./Application/Admin/View/Wares/mixtopaid.html
+
+[ 2020-05-20T12:11:53+08:00 ] ::1 /tp/index.php/Admin/shell?like=%E5%9C%B0%E7%90%83
+ERR: 无法加载控制器:Shell
+
+[ 2020-05-20T12:12:20+08:00 ] ::1 /tp/index.php/Admin/Warse/shell?like=%E5%9C%B0%E7%90%83
+ERR: 无法加载控制器:Warse
+
+[ 2020-05-20T12:53:24+08:00 ] ::1 /tp/index.php/Admin/Crud/addclass
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002173s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0007s ]
+SQL: SELECT `power` FROM `user` WHERE `USERNAME` = '1019058432' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `class` (`class_name`) VALUES ('手机') [ RunTime:0.0008s ]
+SQL: SELECT * FROM `class`  [ RunTime:0.0003s ]
+
+[ 2020-05-20T13:25:05+08:00 ] ::1 /tp/index.php/Admin/Users/npwd.html
+ERR: 无法加载控制器:Users
+

@@ -1,0 +1,10 @@
+[ 2020-05-22T14:17:04+08:00 ] ::1 /tp/index.php/Users/User/address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `USERNAME` = '1019058432' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\PHP\Apache\Apache24\htdocs\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `user` SET `address`='北海市萝莉大道萝莉屋' WHERE `u_id` = 20 [ RunTime:0.0005s ]
+

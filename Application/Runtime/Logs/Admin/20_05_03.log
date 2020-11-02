@@ -1,0 +1,97 @@
+[ 2020-05-03T09:22:43+08:00 ] ::1 /tp/index.php/Admin/Wares/None
+ERR: 非法操作:None
+
+[ 2020-05-03T09:22:48+08:00 ] ::1 /tp/index.php/Admin/Wares/None
+ERR: 非法操作:None
+
+[ 2020-05-03T09:22:51+08:00 ] ::1 /tp/index.php/Admin/Wares/None
+ERR: 非法操作:None
+
+[ 2020-05-03T09:23:08+08:00 ] ::1 /tp/index.php/Admin/Wares/None
+ERR: 非法操作:None
+
+[ 2020-05-03T09:23:40+08:00 ] ::1 /tp/index.php/Admin/Wares/None
+ERR: 非法操作:None
+
+[ 2020-05-03T09:23:57+08:00 ] ::1 /tp/index.php/Admin/Wares/None
+ERR: 非法操作:None
+
+[ 2020-05-03T13:38:41+08:00 ] ::1 /tp/index.php/Admin/Wares/None
+ERR: 非法操作:None
+
+[ 2020-05-03T13:38:42+08:00 ] ::1 /tp/index.php/Admin/Wares/None
+ERR: 非法操作:None
+
+[ 2020-05-03T13:38:49+08:00 ] ::1 /tp/index.php/Admin/Wares/None
+ERR: 非法操作:None
+
+[ 2020-05-03T13:38:50+08:00 ] ::1 /tp/index.php/Admin/Wares/None
+ERR: 非法操作:None
+
+[ 2020-05-03T13:39:08+08:00 ] ::1 /tp/index.php/Admin/Wares/top/p/None
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `wares` ORDER BY w_talk desc LIMIT -10,10  
+
+[ 2020-05-03T13:39:11+08:00 ] ::1 /tp/index.php/Admin/Wares/top/p/None
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `wares` ORDER BY w_talk desc LIMIT -10,10  
+
+[ 2020-05-03T13:39:13+08:00 ] ::1 /tp/index.php/Admin/Wares/top/p/None
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `wares` ORDER BY w_talk desc LIMIT -10,10  
+
+[ 2020-05-03T13:39:16+08:00 ] ::1 /tp/index.php/Admin/Wares/top/p/None
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-10,10' at line 1
+ [ SQL语句 ] : SELECT * FROM `wares` ORDER BY w_talk desc LIMIT -10,10  
+
+[ 2020-05-03T14:23:21+08:00 ] ::1 /tp/index.php/Admin/Users/user.html
+ERR: 无法加载控制器:Users
+
+[ 2020-05-03T14:27:53+08:00 ] ::1 /tp/index.php/Admin/Users/user.html
+ERR: 无法加载控制器:Users
+
+[ 2020-05-03T14:27:53+08:00 ] ::1 /tp/index.php/Admin/Users/user.html
+ERR: 无法加载控制器:Users
+
+[ 2020-05-03T14:54:29+08:00 ] ::1 /tp/index.php/Admin/Users/user.html
+ERR: 模板不存在:./Application/Admin/View/Users/user.html
+
+[ 2020-05-03T18:31:12+08:00 ] ::1 /tp/index.php/Admin/Users/%7BU:('Users/npwd')%7D
+ERR: 非法操作:{U:('Users
+
+[ 2020-05-03T18:31:12+08:00 ] ::1 /tp/index.php/Admin/Users/%7BU:('Users/npwd')%7D
+ERR: 非法操作:{U:('Users
+
+[ 2020-05-03T18:31:13+08:00 ] ::1 /tp/index.php/Admin/Users/%7BU:('Users/npwd')%7D
+ERR: 非法操作:{U:('Users
+
+[ 2020-05-03T18:31:14+08:00 ] ::1 /tp/index.php/Admin/Users/%7BU:('Users/npwd')%7D
+ERR: 非法操作:{U:('Users
+
+[ 2020-05-03T18:31:15+08:00 ] ::1 /tp/index.php/Admin/Users/%7BU:('Users/npwd')%7D
+ERR: 非法操作:{U:('Users
+
+[ 2020-05-03T18:32:04+08:00 ] ::1 /tp/index.php/Admin/Users/%7BU:('Users/npwd')%7D
+ERR: 非法操作:{U:('Users
+
+[ 2020-05-03T18:32:05+08:00 ] ::1 /tp/index.php/Admin/Users/%7BU:('Users/npwd')%7D
+ERR: 非法操作:{U:('Users
+
+[ 2020-05-03T18:32:05+08:00 ] ::1 /tp/index.php/Admin/Users/%7BU:('Users/npwd')%7D
+ERR: 非法操作:{U:('Users
+
+[ 2020-05-03T18:32:06+08:00 ] ::1 /tp/index.php/Admin/Users/%7BU:('Users/npwd')%7D
+ERR: 非法操作:{U:('Users
+
+[ 2020-05-03T18:32:07+08:00 ] ::1 /tp/index.php/Admin/Users/%7BU:('Users/npwd')%7D
+ERR: 非法操作:{U:('Users
+
+[ 2020-05-03T18:32:07+08:00 ] ::1 /tp/index.php/Admin/Users/%7BU:('Users/npwd')%7D
+ERR: 非法操作:{U:('Users
+
+[ 2020-05-03T18:32:44+08:00 ] ::1 /tp/index.php/Admin/Users/%7BU:('Users/npwd')%7D
+ERR: 非法操作:{U:('Users
+
+[ 2020-05-03T18:32:45+08:00 ] ::1 /tp/index.php/Admin/Users/%7BU:('Users/npwd')%7D
+ERR: 非法操作:{U:('Users
+
